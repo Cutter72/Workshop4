@@ -8,6 +8,29 @@
   <script src="js/app.js" type="text/javascript"></script>
 </head>
 <body>
+<h1>Biblioteka</h1>
+<form>
+  <label>ID
+    <input type="number" name="id" width="50" required/>
+  </label>
+  <label>ISBN
+    <input type="number" name="isbn" required/>
+  </label>
+  <label>Tytuł
+    <input type="text" name="title" required/>
+  </label>
+  <label>Author
+    <input type="text" name="author" required/>
+  </label>
+  <label>Wydawca
+    <input type="text" name="publisher" required/>
+  </label>
+  <label>Tematyka
+    <input type="text" name="book-type" required/>
+  </label>
+  <button type="submit" id="add-book">Dodaj Książkę</button>
+</form>
+<h3>Lista książek:</h3>
 <ul id="book-list">
 
 </ul>

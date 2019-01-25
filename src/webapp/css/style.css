@@ -1,13 +1,21 @@
 body {
   width: 80%;
   margin: 0 auto;
-}
-ul li {
-  font-weight: bold;
+  background-color: chocolate;
   text-align: center;
+}
+li {
+  font-weight: bold;
   list-style: none;
+  margin-left: -40px;
 }
 div {
-  background-color: azure;
-  text-align: center;
+  background-color: bisque;
+  margin-left: -40px;
+}
+input[name=id] {
+  width: 35px;
+}
+input[name=isbn] {
+  width: 120px;
 }
