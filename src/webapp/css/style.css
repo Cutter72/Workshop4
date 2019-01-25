@@ -1,0 +1,13 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+ul li {
+  font-weight: bold;
+  text-align: center;
+  list-style: none;
+}
+div {
+  background-color: azure;
+  text-align: center;
+}
